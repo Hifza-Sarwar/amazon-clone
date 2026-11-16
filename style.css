@@ -1,0 +1,364 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+
+}
+.navBar{
+    height: 60px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+.navLogo{
+    height: 50px;
+    width: 100px;
+}
+.logo{
+    background-image: url("Amazon/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+.border{
+    border: 1.5px solid white transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+
+/* BOX 2 */
+.dliver{
+    font-size: 1rem;
+    color: #cccccc;
+    margin-left: 19px;
+}
+.loctaion{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+.adress-icon{
+    display: flex;
+    align-items: center;
+}
+
+/* BOX 3 */
+.navSearch{
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    width:600px;
+    height: 40px;
+    border-radius: 5px;
+
+}
+.searchSelect{
+    background-color: #f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width:50px;
+    text-align: center;
+    border: none;
+}
+.searchInput{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    background-color:#d6ba17;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: #0f1111;
+}
+.navSearch:hover{
+    border: 2px solid orange;
+}
+/* Box4 */
+span{
+    font-size: 0.7rem;
+}
+.nav-account{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* Box 5 */
+.navCart i{
+    font-size: 30px;
+}
+.navCart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+/* Pannel */
+.pannel{
+    height: 40px;
+    background-color:#222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pannelOption p{
+    display: inline;
+    margin-left: 10px;
+    
+}
+.pannelOption{
+    width: 70%;
+    font-size: 0.85rem;
+}
+.pannelDeal{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Hero or Main Section */
+.heroSection{
+    height:350px;
+    background-image: url("Amazon/hero_image.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   
+}
+.herodetails{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-bottom: 20px;
+    /* font-size: 0.85rem; */
+}
+.herodetails a{
+    text-decoration: none;
+    color: #007185;
+}
+/* Shop section */
+
+.shopSection{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+
+}
+.box{
+    /* border: 2px solid black; */
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 5px;
+    
+
+    
+}
+.boxImg{
+    height:300px;
+    
+
+    margin-top: 0.5rem;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.boxContent{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.boxContent p{
+    color: #007185;
+}
+
+/* footer */
+footer{
+    margin-top: 15px;
+
+}
+.footerpanel1{
+    background-color: #37475a;
+    color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.footerpanel2{
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul{
+    margin-top: 20px;
+}
+ul a{
+display: block;
+text-decoration: none;
+color: #dddddd;
+font-size: 0.85rem;
+margin-top: 10px;
+}
+
+.footerPannel3{
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.2px solid gray;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.logo{
+    background-image: url("Amazon/amazon_logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 120px;
+}
+.footerpanel4{
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.footerpanel4 a{
+    text-decoration: none;
+    color: white;
+ 
+  
+
+}
+.pages{
+    
+padding-top: 10px;
+}
+.copyright{
+    padding-top: 5px;
+
+}
+
+
+/*RESPONSIVE ADDITIONS */
+
+   img { max-width: 100%; }
+
+   /* Tablets / small laptops */
+   @media (max-width: 1024px) {
+       .navSearch {
+           width: 40%;
+           min-width: 250px;
+       }
+       .pannelOption {
+           width: 75%;
+       }
+       .box {
+           width: 48%;
+       }
+   }
+   
+   /* Tablets portrait / large phones */
+   @media (max-width: 768px) {
+       .navBar {
+           height: auto;
+           flex-wrap: wrap;
+           padding: 8px 0;
+           row-gap: 8px;
+       }
+       /* search bar drops to its own full-width row */
+       .navSearch {
+           order: 10;
+           width: 95%;
+           min-width: 0;
+       }
+   
+       .pannel {
+           height: auto;
+           padding: 8px 0;
+       }
+       .pannelOption {
+           width: 80%;
+           white-space: nowrap;
+           overflow-x: auto;
+       }
+   
+       .heroSection {
+           height: 220px;
+       }
+       .herodetails {
+           height: auto;
+           padding: 8px 12px;
+           margin: 0 10px 12px;
+           text-align: center;
+       }
+   
+       .box {
+           height: auto;
+           width: 48%;
+       }
+       .boxImg {
+           height: 200px;
+       }
+   
+       .footerpanel1 {
+           height: auto;
+           padding: 10px;
+           text-align: center;
+       }
+       .footerpanel2 {
+           height: auto;
+           flex-wrap: wrap;
+           padding-bottom: 20px;
+       }
+       .footerpanel2 ul {
+           width: 45%;
+       }
+       .footerpanel4 {
+           padding: 0 10px 10px;
+       }
+   }
+   
+   /* Phones */
+   @media (max-width: 480px) {
+       .navBar {
+           justify-content: space-around;
+       }
+       .heroSection {
+           height: 160px;
+       }
+   
+       .box {
+           width: 100%;
+       }
+       .boxImg {
+           height: 260px;
+       }
+   
+       .pannelOption {
+           width: 100%;
+           padding: 0 8px;
+       }
+       .pannelDeal {
+           display: none; /* only hides the extra deal text so the menu fits; remove if you want it */
+       }
+   
+       .footerpanel2 ul {
+           width: 90%;
+       }
+   }
