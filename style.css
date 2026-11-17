@@ -125,7 +125,7 @@ span{
 /* Hero or Main Section */
 .heroSection{
     height:350px;
-    background-image: url("Amazon/hero_image.jpg");
+    background-image: url("hero_image.jpg");
     background-size: cover;
     display: flex;
     justify-content: center;
